@@ -1,0 +1,189 @@
+a {
+    text-decoration: none;
+  }
+  html {
+    font-size: 50px;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: 21.33333333px;
+    }
+  }
+  @media screen and (min-width: 360px) {
+    html {
+      font-size: 24px;
+    }
+  }
+  @media screen and (min-width: 375px) {
+    html {
+      font-size: 25px;
+    }
+  }
+  @media screen and (min-width: 384px) {
+    html {
+      font-size: 25.6px;
+    }
+  }
+  @media screen and (min-width: 400px) {
+    html {
+      font-size: 26.66666667px;
+    }
+  }
+  @media screen and (min-width: 414px) {
+    html {
+      font-size: 27.6px;
+    }
+  }
+  @media screen and (min-width: 424px) {
+    html {
+      font-size: 28.26666667px;
+    }
+  }
+  @media screen and (min-width: 480px) {
+    html {
+      font-size: 32px;
+    }
+  }
+  @media screen and (min-width: 540px) {
+    html {
+      font-size: 36px;
+    }
+  }
+  @media screen and (min-width: 720px) {
+    html {
+      font-size: 48px;
+    }
+  }
+  @media screen and (min-width: 750px) {
+    html {
+      font-size: 50px;
+    }
+  }
+  
+  html,
+  body {
+    height: 100%;
+    min-height: 30.28rem;
+    /* max-height: 30.28rem; */
+  }
+  
+  body {
+    min-width: 320px;
+    width: 15rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #fff;
+  }
+  
+  .warp {
+    position: relative;
+    width: 15rem;
+    height: 100%;
+    margin: 0 auto;
+    background: url("../imgs/bg.jpg") no-repeat;
+    background-size: 100% auto;
+  }
+  
+  .main {
+    padding: 0.5rem;
+  }
+  
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  
+  .small-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  .dowmload-button {
+    position: absolute;
+    top: 15.5rem;
+    left: 50%;
+    margin-left: -3.96rem;
+    width: 7.92rem;
+    height: 3rem;
+    animation: myBreath 1s linear infinite;
+  }
+  
+  @keyframes myBreath {
+    0% {
+      transform: scale(0.88);
+    }
+    50% {
+      transform: scale(100%);
+    }
+    100% {
+      transform: scale(0.88);
+    }
+  }
+  
+  .tip {
+    display: flex;
+  }
+  
+  .tip-content {
+    margin-left: 0.3rem;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .bit-game {
+    font-size: 0.8rem;
+  }
+  
+  .subtitle {
+    font-size: 0.36rem;
+    line-height: 0.6rem;
+  }
+  
+  .dowmload {
+    text-align: center;
+    margin-right: 5px;
+    font-size: 0.6rem;
+    color: #fff;
+    background: url("../imgs/btn_down2.png") no-repeat;
+    background-size: 100% 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+        padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  
+  /* @media only screen and (device-width: 375px) and (-webkit-device-pixel-ratio: 3) {
+    .dowmload-button {
+      top: 14.2rem;
+    }
+  } */
+  
+  /* @media screen and (min-width: 393px) {
+    .dowmload-button {
+      top: 14.8rem;
+    }
+  } */
+  .logo,
+  .small-logo {
+    border-radius: 25px;
+  }
+  
